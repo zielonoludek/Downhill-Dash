@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{05758f4d-9fee-483a-9ab8-0f33a7797083}">
+		<property name="assetPath">
+			<value>Main Menus/AerosolCanDrop_S08FO.5.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.432</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{7ae06410-953a-42c4-9738-aadbdcd39a28}</destination>
+		</relationship>
+	</object>
+</objects>

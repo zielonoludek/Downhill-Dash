@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{5fa57d7e-a71b-4663-afd8-4b9f7051f335}">
+		<property name="assetPath">
+			<value>SFX/Vehicle Sounds/Horns/Modern/CarHornHonk_BW.62165.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.40533333333333332</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{7ae06410-953a-42c4-9738-aadbdcd39a28}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{681a0eee-2105-42b0-9783-e76c27af2a48}">
+		<property name="assetPath">
+			<value>Main Menus/PL_NI_Lead_Guitar_One_Shot_Fearless_E.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.54959183673469392</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{7ae06410-953a-42c4-9738-aadbdcd39a28}</destination>
+		</relationship>
+	</object>
+</objects>

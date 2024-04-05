@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{33d1a615-baca-4444-9c99-e33e49422c66}">
+		<property name="assetPath">
+			<value>SFX/Player Sounds/Collision Sounds/Board Sounds/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{7ae06410-953a-42c4-9738-aadbdcd39a28}</destination>
+		</relationship>
+	</object>
+</objects>

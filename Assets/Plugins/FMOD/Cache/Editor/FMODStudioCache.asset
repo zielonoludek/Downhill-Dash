@@ -1,0 +1,984 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8478486564832100379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: GP2 - Project Speedboard/Build/Desktop/Music.bank
+  Name: Music
+  StudioPath: bank:/Music
+  lastModified: 638433554131750464
+  FileSizes:
+  - Name: Desktop
+    Value: 3540096
+  Exists: 1
+--- !u!114 &-8360812774902445225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Air Woosh/Player Speed
+  m_EditorClassIdentifier: 
+  Name: Player Speed
+  StudioPath: 
+  Min: 0
+  Max: 45
+  Default: 0
+  ID:
+    data1: 835395735
+    data2: 514356901
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-7843191932842082996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Vehicle Sounds/Vehicle_A Engine
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Vehicle Sounds/Vehicle_A Engine
+  Guid:
+    Data1: -2052686447
+    Data2: 1248846020
+    Data3: 881147581
+    Data4: 1030224671
+  Banks:
+  - {fileID: 3151691386835580860}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 32000
+--- !u!114 &-7590535866202395191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Vehicle Sounds/Vehicle Engines/Large_Truck_E
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Vehicle Sounds/Vehicle Engines/Large_Truck_E
+  Guid:
+    Data1: 696334547
+    Data2: 1293064491
+    Data3: -334659916
+    Data4: -1041707321
+  Banks:
+  - {fileID: 3151691386835580860}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 31000
+--- !u!114 &-7277875620543357898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Player Sounds/Board Noise Switcher
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Player Sounds/Board Noise Switcher
+  Guid:
+    Data1: -383508159
+    Data2: 1183917801
+    Data3: 672335289
+    Data4: -1010620565
+  Banks:
+  - {fileID: 3151691386835580860}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 2950603696894149033}
+  - {fileID: -5203863021912956243}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-7177038047925714355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/UI Sounds/Customise Light On
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/UI Sounds/Customise Light On
+  Guid:
+    Data1: 455715715
+    Data2: 1301216712
+    Data3: -1353281357
+    Data4: -1590633316
+  Banks:
+  - {fileID: 3151691386835580860}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-6815657068776371887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Vehicle Sounds/Vehicle Engines/Modern_Car_1
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Vehicle Sounds/Vehicle Engines/Modern_Car_1
+  Guid:
+    Data1: -865809882
+    Data2: 1082741032
+    Data3: 1912212912
+    Data4: -416455570
+  Banks:
+  - {fileID: 3151691386835580860}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 31000
+--- !u!114 &-6786501992127062697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Longboard Sound/Player Speed
+  m_EditorClassIdentifier: 
+  Name: Player Speed
+  StudioPath: 
+  Min: 0
+  Max: 45
+  Default: 0
+  ID:
+    data1: 835395735
+    data2: 514356901
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-6394719113630082043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Vehicle Sounds/Vehicle Engines/Van_E
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Vehicle Sounds/Vehicle Engines/Van_E
+  Guid:
+    Data1: -90979569
+    Data2: 1133011730
+    Data3: 1864178085
+    Data4: -498999295
+  Banks:
+  - {fileID: 3151691386835580860}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 31000
+--- !u!114 &-5203863021912956243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Board Noise Switcher/Player Speed
+  m_EditorClassIdentifier: 
+  Name: Player Speed
+  StudioPath: 
+  Min: 0
+  Max: 45
+  Default: 0
+  ID:
+    data1: 835395735
+    data2: 514356901
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-4438661201197233663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/UI Sounds/UI Change Board
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/UI Sounds/UI Change Board
+  Guid:
+    Data1: -1590280794
+    Data2: 1245868045
+    Data3: -818243196
+    Data4: 875743206
+  Banks:
+  - {fileID: 8388190750049984489}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-4421279171292403716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/UI Sounds/Customise Light Off
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/UI Sounds/Customise Light Off
+  Guid:
+    Data1: -119183670
+    Data2: 1154216586
+    Data3: 1408949427
+    Data4: 532440887
+  Banks:
+  - {fileID: 3151691386835580860}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-4335815787332238194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Player Sounds/Player Air Woosh
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Player Sounds/Player Air Woosh
+  Guid:
+    Data1: -1993023114
+    Data2: 1133958455
+    Data3: 1913572796
+    Data4: -405776043
+  Banks:
+  - {fileID: 3151691386835580860}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -8360812774902445225}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 30750
+--- !u!114 &-2683635660686680905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/UI Sounds/UI Confirm
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/UI Sounds/UI Confirm
+  Guid:
+    Data1: 1027869030
+    Data2: 1272868496
+    Data3: -2039578442
+    Data4: 1708330216
+  Banks:
+  - {fileID: 8388190750049984489}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-2404321685250640099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Main Soundtrack A/Area
+  m_EditorClassIdentifier: 
+  Name: Area
+  StudioPath: 
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 3139744826
+    data2: 1904074331
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Pre-Race
+  - During Race
+  - End of Race
+  Exists: 1
+--- !u!114 &-2119501340559072744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: GP2 - Project Speedboard/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638434396614001860
+  FileSizes:
+  - Name: Desktop
+    Value: 1872
+  Exists: 1
+--- !u!114 &-2079965717267386269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Player Sounds/Collision 1
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Player Sounds/Collision 1
+  Guid:
+    Data1: 963990994
+    Data2: 1239587814
+    Data3: 646006681
+    Data4: 1133889094
+  Banks:
+  - {fileID: 3151691386835580860}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-1078108970825297054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Soundtrack/Menus/Main Menu Loop
+  m_EditorClassIdentifier: 
+  Path: event:/Soundtrack/Menus/Main Menu Loop
+  Guid:
+    Data1: -458414035
+    Data2: 1303370290
+    Data3: 1943470476
+    Data4: 1712107030
+  Banks:
+  - {fileID: -8478486564832100379}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 81103
+--- !u!114 &-619973476997025031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Vehicle Sounds/Vehicle Engines/Modern_Car_2
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Vehicle Sounds/Vehicle Engines/Modern_Car_2
+  Guid:
+    Data1: 1814866907
+    Data2: 1078679801
+    Data3: 1796048812
+    Data4: 1740175431
+  Banks:
+  - {fileID: 3151691386835580860}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 31000
+--- !u!114 &-201172888089725023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/UI Sounds/UI Select
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/UI Sounds/UI Select
+  Guid:
+    Data1: -1483953558
+    Data2: 1331649251
+    Data3: -1512210268
+    Data4: -231143460
+  Banks:
+  - {fileID: 8388190750049984489}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 1286438832888729067}
+  - {fileID: -2119501340559072744}
+  - {fileID: -8478486564832100379}
+  - {fileID: 3151691386835580860}
+  - {fileID: 8388190750049984489}
+  EditorEvents:
+  - {fileID: -7277875620543357898}
+  - {fileID: 1437960034859348416}
+  - {fileID: -7843191932842082996}
+  - {fileID: 4064106173794279333}
+  - {fileID: 5294050302991417395}
+  - {fileID: 3086059013718700663}
+  - {fileID: 254996393032668078}
+  - {fileID: 4340756392598517858}
+  - {fileID: -2683635660686680905}
+  - {fileID: -201172888089725023}
+  - {fileID: -4438661201197233663}
+  - {fileID: -1078108970825297054}
+  - {fileID: 5076900564757614087}
+  - {fileID: 6243058074745923595}
+  - {fileID: -6394719113630082043}
+  - {fileID: -6815657068776371887}
+  - {fileID: 2438375347470667457}
+  - {fileID: -4335815787332238194}
+  - {fileID: -7590535866202395191}
+  - {fileID: -619973476997025031}
+  - {fileID: 3349072763693912044}
+  - {fileID: -2079965717267386269}
+  - {fileID: -7177038047925714355}
+  - {fileID: -4421279171292403716}
+  EditorParameters:
+  - {fileID: 941509281085902890}
+  - {fileID: 8519988454911482291}
+  MasterBanks:
+  - {fileID: -2119501340559072744}
+  StringsBanks:
+  - {fileID: 1286438832888729067}
+  cacheTime: 638434396615154239
+  cacheVersion: 131616
+--- !u!114 &254996393032668078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/UI Sounds/UI Back
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/UI Sounds/UI Back
+  Guid:
+    Data1: 1705865986
+    Data2: 1273288024
+    Data3: 312151955
+    Data4: 1441173887
+  Banks:
+  - {fileID: 8388190750049984489}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &941509281085902890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Speed
+  m_EditorClassIdentifier: 
+  Name: Player Speed
+  StudioPath: parameter:/Player Speed
+  Min: 0
+  Max: 45
+  Default: 0
+  ID:
+    data1: 835395735
+    data2: 514356901
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &1286438832888729067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: GP2 - Project Speedboard/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638434396614001860
+  FileSizes:
+  - Name: Desktop
+    Value: 2404
+  Exists: 1
+--- !u!114 &1437960034859348416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Test Ding Sound
+  m_EditorClassIdentifier: 
+  Path: event:/Test Ding Sound
+  Guid:
+    Data1: -1397432765
+    Data2: 1079521885
+    Data3: 1895922845
+    Data4: -1339671358
+  Banks:
+  - {fileID: 3151691386835580860}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &2438375347470667457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Vehicle Sounds/Vehicle Engines/Crappy_Truck_E
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Vehicle Sounds/Vehicle Engines/Crappy_Truck_E
+  Guid:
+    Data1: -80866517
+    Data2: 1280027361
+    Data3: 700343710
+    Data4: -1899797872
+  Banks:
+  - {fileID: 3151691386835580860}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 31000
+--- !u!114 &2950603696894149033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Board Noise Switcher/Board Noise Types
+  m_EditorClassIdentifier: 
+  Name: Board Noise Types
+  StudioPath: 
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 3929183292
+    data2: 3719671511
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Riding
+  - Powerslide 1
+  - Powerslide 2
+  Exists: 1
+--- !u!114 &3086059013718700663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Soundtrack/Menus/Game Logo Screen
+  m_EditorClassIdentifier: 
+  Path: event:/Soundtrack/Menus/Game Logo Screen
+  Guid:
+    Data1: -1556804779
+    Data2: 1240036591
+    Data3: 1420165293
+    Data4: 223029832
+  Banks:
+  - {fileID: -8478486564832100379}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4500
+--- !u!114 &3151691386835580860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX.bank
+  m_EditorClassIdentifier: 
+  Path: GP2 - Project Speedboard/Build/Desktop/SFX.bank
+  Name: SFX
+  StudioPath: bank:/SFX
+  lastModified: 638434396615154239
+  FileSizes:
+  - Name: Desktop
+    Value: 7494944
+  Exists: 1
+--- !u!114 &3349072763693912044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Player Sounds/Collision 2
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Player Sounds/Collision 2
+  Guid:
+    Data1: 682459547
+    Data2: 1221339128
+    Data3: 2056881302
+    Data4: 1249287640
+  Banks:
+  - {fileID: 3151691386835580860}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &4064106173794279333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Player Sounds/Longboard Sound
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Player Sounds/Longboard Sound
+  Guid:
+    Data1: -1287521336
+    Data2: 1299707555
+    Data3: -244433788
+    Data4: 501858338
+  Banks:
+  - {fileID: 3151691386835580860}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -6786501992127062697}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 17600
+--- !u!114 &4340756392598517858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/UI Sounds/UI Change Outfit
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/UI Sounds/UI Change Outfit
+  Guid:
+    Data1: -270137528
+    Data2: 1192611816
+    Data3: 619668377
+    Data4: 1172031553
+  Banks:
+  - {fileID: 8388190750049984489}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &5076900564757614087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/UI Sounds/UI Select Customisation
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/UI Sounds/UI Select Customisation
+  Guid:
+    Data1: 935379243
+    Data2: 1181152513
+    Data3: -1024130646
+    Data4: -1334974239
+  Banks:
+  - {fileID: 8388190750049984489}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &5294050302991417395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Soundtrack/Menus/Studio Splash Screen
+  m_EditorClassIdentifier: 
+  Path: event:/Soundtrack/Menus/Studio Splash Screen
+  Guid:
+    Data1: 1250298173
+    Data2: 1079836823
+    Data3: -982366295
+    Data4: -1144312339
+  Banks:
+  - {fileID: -8478486564832100379}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &6243058074745923595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Soundtrack/Track A/Main Soundtrack A
+  m_EditorClassIdentifier: 
+  Path: event:/Soundtrack/Track A/Main Soundtrack A
+  Guid:
+    Data1: 1804191114
+    Data2: 1218251686
+    Data3: -865424968
+    Data4: 1181988552
+  Banks:
+  - {fileID: -8478486564832100379}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -2404321685250640099}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &8388190750049984489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/UI Sounds.bank
+  m_EditorClassIdentifier: 
+  Path: GP2 - Project Speedboard/Build/Desktop/UI Sounds.bank
+  Name: UI Sounds
+  StudioPath: bank:/UI Sounds
+  lastModified: 638434364501586406
+  FileSizes:
+  - Name: Desktop
+    Value: 189792
+  Exists: 1
+--- !u!114 &8519988454911482291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Area
+  m_EditorClassIdentifier: 
+  Name: Area
+  StudioPath: parameter:/Area
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 3139744826
+    data2: 1904074331
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Pre-Race
+  - During Race
+  - End of Race
+  Exists: 1

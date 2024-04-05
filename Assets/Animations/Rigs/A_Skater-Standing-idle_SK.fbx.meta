@@ -1,0 +1,293 @@
+fileFormatVersion: 2
+guid: 3b3caee1360182940a4ece8e6da8c31f
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: StandingIdle
+      takeName: Armature|ArmatureAction
+      internalID: 4781951162920444690
+      firstFrame: 0
+      lastFrame: 99
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: A_Skater-Standing-idle_SK(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature
+      parentName: A_Skater-Standing-idle_SK(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: FOOT-MCH.L
+      parentName: Armature
+      position: {x: -0.00033965727, y: 0.0029578772, z: 0.00059607683}
+      rotation: {x: 0.9742787, y: -0.20440714, z: 0.031211868, w: -0.08958009}
+      scale: {x: 1.000001, y: 1.0000012, z: 1.000001}
+    - name: FOOT-MCH.L_end
+      parentName: FOOT-MCH.L
+      position: {x: -0, y: 0.0017552008, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FOOT-MCH.R
+      parentName: Armature
+      position: {x: -0.00011372834, y: -0.0020754542, z: 0.0005960769}
+      rotation: {x: 0.9742787, y: 0.20440719, z: -0.031211726, w: -0.08958024}
+      scale: {x: 1.0000005, y: 1.0000006, z: 0.99999994}
+    - name: FOOT-MCH.R_end
+      parentName: FOOT-MCH.R
+      position: {x: -0, y: 0.0017552008, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SQUAT-MCH
+      parentName: Armature
+      position: {x: -2.050692e-18, y: 0.0046611074, z: 0.0074117277}
+      rotation: {x: 0.7071068, y: -0.0000000842937, z: -0.0000000842937, w: 0.7071068}
+      scale: {x: 1, y: 0.99999976, z: 0.99999976}
+    - name: CTRL-BONE
+      parentName: SQUAT-MCH
+      position: {x: 9.676032e-10, y: -0.0013752967, z: 0.0040584225}
+      rotation: {x: 0.084925085, y: 9.687966e-10, z: -0.000000021532667, w: 0.99638736}
+      scale: {x: 0.9999997, y: 1.0000001, z: 1.0000004}
+    - name: KNEE-IK.L
+      parentName: CTRL-BONE
+      position: {x: -0.0050456864, y: -0.0030901944, z: 0.0040185275}
+      rotation: {x: 0.64436895, y: 0.015492851, z: 0.013059114, w: 0.7644463}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1}
+    - name: KNEE-IK.L_end
+      parentName: KNEE-IK.L
+      position: {x: -0, y: 0.00198242, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: KNEE-IK.R
+      parentName: CTRL-BONE
+      position: {x: 0.0054220003, y: -0.0031033151, z: 0.0040207785}
+      rotation: {x: 0.64436895, y: -0.015492667, z: -0.013059263, w: 0.7644463}
+      scale: {x: 1.0000002, y: 1, z: 1}
+    - name: KNEE-IK.R_end
+      parentName: KNEE-IK.R
+      position: {x: -0, y: 0.00198242, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FEMUR-MCH.L
+      parentName: CTRL-BONE
+      position: {x: -0.001075615, y: 0.00057711854, z: -0.00009909782}
+      rotation: {x: 0.99242944, y: 0.011241175, z: 0.0097083915, w: 0.12191493}
+      scale: {x: 1.0000006, y: 1.000002, z: 1.0000015}
+    - name: TIBIA-MCH.L
+      parentName: FEMUR-MCH.L
+      position: {x: 2.9802322e-10, y: 0.004178017, z: 3.72529e-10}
+      rotation: {x: 0.10397865, y: -0.010645206, z: 0.03266323, w: 0.993986}
+      scale: {x: 1.0000004, y: 0.9999992, z: 1.0000001}
+    - name: TIBIA-MCH.L_end
+      parentName: TIBIA-MCH.L
+      position: {x: -0, y: 0.00413723, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ABDOMEN-MCH
+      parentName: CTRL-BONE
+      position: {x: -6.234895e-11, y: 0.0011038854, z: 7.4505804e-11}
+      rotation: {x: -0.032383442, y: -0.000000022126786, z: 0.00000000995133, w: 0.99947554}
+      scale: {x: 1.0000002, y: 0.99999976, z: 1.0000001}
+    - name: CHEST-MCH
+      parentName: ABDOMEN-MCH
+      position: {x: 1.4856028e-12, y: 0.001777822, z: 8.381903e-11}
+      rotation: {x: -0.10310403, y: 0.000000017497035, z: 0.000000017427514, w: 0.9946706}
+      scale: {x: 1.0000002, y: 1.0000001, z: 0.99999964}
+    - name: HEAD-MCH
+      parentName: CHEST-MCH
+      position: {x: 2.7939676e-10, y: 0.003694776, z: 8.381903e-10}
+      rotation: {x: 0.14529736, y: -0.000000004494043, z: -0.000000035487364, w: 0.9893881}
+      scale: {x: 0.9999999, y: 0.99999994, z: 1}
+    - name: HEAD-MCH_end
+      parentName: HEAD-MCH
+      position: {x: -0, y: 0.0029625157, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ARM-MCH.L
+      parentName: CHEST-MCH
+      position: {x: -0.00156284, y: 0.0032508438, z: -0.00031707346}
+      rotation: {x: 0.09467212, y: -0.09449758, z: 0.723295, w: 0.6774599}
+      scale: {x: 1.0000005, y: 1.0000005, z: 0.9999999}
+    - name: FOREARM-MCH.L
+      parentName: ARM-MCH.L
+      position: {x: 1.8626451e-11, y: 0.002406809, z: -3.7252902e-11}
+      rotation: {x: 0.025419408, y: -0.044178385, z: -0.01860759, w: 0.99852693}
+      scale: {x: 1.0000007, y: 1.0000007, z: 1.0000002}
+    - name: HAND-MCH.L
+      parentName: FOREARM-MCH.L
+      position: {x: -3.7252902e-11, y: 0.002538453, z: 3.7252902e-11}
+      rotation: {x: -0.0953487, y: 0.072625756, z: 0.064900525, w: 0.99066746}
+      scale: {x: 0.9999997, y: 0.99999964, z: 1}
+    - name: HAND-MCH.L_end
+      parentName: HAND-MCH.L
+      position: {x: -0, y: 0.0019686925, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ARM-MCH.R
+      parentName: CHEST-MCH
+      position: {x: 0.0015628402, y: 0.0032508431, z: -0.000317074}
+      rotation: {x: 0.09467231, y: 0.094497405, z: -0.723295, w: 0.67745984}
+      scale: {x: 0.99999976, y: 0.99999964, z: 1}
+    - name: FOREARM-MCH.R
+      parentName: ARM-MCH.R
+      position: {x: -0.000000001117587, y: 0.002406807, z: -3.352761e-10}
+      rotation: {x: -0.02541889, y: -0.044178575, z: -0.018608436, w: -0.99852693}
+      scale: {x: 0.9999999, y: 1, z: 0.9999998}
+    - name: HAND-MCH.R
+      parentName: FOREARM-MCH.R
+      position: {x: 0.0000000012665987, y: 0.0025384524, z: 1.4901161e-10}
+      rotation: {x: -0.095348775, y: -0.07262601, z: -0.06490041, w: 0.99066746}
+      scale: {x: 0.9999998, y: 0.9999997, z: 0.99999994}
+    - name: HAND-MCH.R_end
+      parentName: HAND-MCH.R
+      position: {x: -0, y: 0.0019686925, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FEMUR-MCH.R
+      parentName: CTRL-BONE
+      position: {x: 0.0010756147, y: 0.0005771177, z: -0.00009909849}
+      rotation: {x: 0.99242944, y: -0.011241083, z: -0.0097086495, w: 0.12191493}
+      scale: {x: 1.0000005, y: 1.0000023, z: 1.0000008}
+    - name: TIBIA-MCH.R
+      parentName: FEMUR-MCH.R
+      position: {x: -6.705522e-10, y: 0.004178017, z: -2.6077032e-10}
+      rotation: {x: 0.10397864, y: 0.010645202, z: -0.032663178, w: 0.993986}
+      scale: {x: 1.0000004, y: 0.9999993, z: 1.0000002}
+    - name: TIBIA-MCH.R_end
+      parentName: TIBIA-MCH.R
+      position: {x: -0, y: 0.00413723, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Skater_v02
+      parentName: A_Skater-Standing-idle_SK(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: Armature
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

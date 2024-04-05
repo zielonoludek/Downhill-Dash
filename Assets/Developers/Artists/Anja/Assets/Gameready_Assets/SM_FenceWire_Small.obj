@@ -1,0 +1,20 @@
+# This file uses centimeters as units for non-parametric coordinates.
+
+mtllib SM_FenceWire_Small.mtl
+g default
+v -75.000000 0.000000 0.000000
+v 75.000000 0.000000 0.000000
+v -75.000000 95.000000 0.000000
+v 75.000000 95.000000 0.000000
+vt 0.006336 0.062414
+vt 0.357899 0.062414
+vt 0.357899 0.285070
+vt 0.006336 0.285070
+vn 0.000000 -0.000000 1.000000
+vn 0.000000 -0.000000 1.000000
+vn 0.000000 -0.000000 1.000000
+vn 0.000000 -0.000000 1.000000
+s off
+g SM_SmallFence_Wire_Placeholder:pPlane3fenceS
+usemtl SM_Window_Placeholder:standardSurface1SG
+f 1/1/1 2/2/2 4/3/3 3/4/4
